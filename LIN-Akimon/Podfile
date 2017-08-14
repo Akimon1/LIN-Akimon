@@ -6,6 +6,13 @@ target 'LIN-Akimon' do
   # use_frameworks!
 
   # Pods for LIN-Akimon
+  pod 'AFNetworking', '~> 3.0'
+  pod 'KVNProgress'
+  pod 'SDAutoLayout', '~> 2.1.6'
+  pod 'SDWebImage'
+  pod 'SDCycleScrollView', '~> 1.64'
+  pod 'MJExtension','~> 3.0.10'
+  
 
   target 'LIN-AkimonTests' do
     inherit! :search_paths
