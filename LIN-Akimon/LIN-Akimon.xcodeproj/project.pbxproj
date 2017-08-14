@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27086357309F482E717A3C91 /* libPods-LIN-AkimonUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 521403E5D8F3A028D95D9A4C /* libPods-LIN-AkimonUITests.a */; };
+		3E2ECB9D1F416ECC00F18C83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2ECB9C1F416ECC00F18C83 /* main.m */; };
+		3E2ECBA01F416ECC00F18C83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2ECB9F1F416ECC00F18C83 /* AppDelegate.m */; };
+		3E2ECBA31F416ECC00F18C83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2ECBA21F416ECC00F18C83 /* ViewController.m */; };
+		3E2ECBA61F416ECC00F18C83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2ECBA41F416ECC00F18C83 /* Main.storyboard */; };
+		3E2ECBA91F416ECC00F18C83 /* LIN_Akimon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E2ECBA71F416ECC00F18C83 /* LIN_Akimon.xcdatamodeld */; };
+		3E2ECBAB1F416ECC00F18C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E2ECBAA1F416ECC00F18C83 /* Assets.xcassets */; };
+		3E2ECBAE1F416ECC00F18C83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2ECBAC1F416ECC00F18C83 /* LaunchScreen.storyboard */; };
+		3E2ECBB91F416ECC00F18C83 /* LIN_AkimonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2ECBB81F416ECC00F18C83 /* LIN_AkimonTests.m */; };
+		3E2ECBC41F416ECC00F18C83 /* LIN_AkimonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2ECBC31F416ECC00F18C83 /* LIN_AkimonUITests.m */; };
+		5DE2F549E7AA0C4D66FF34AA /* libPods-LIN-Akimon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 911A7930C73B562C46732F54 /* libPods-LIN-Akimon.a */; };
+		795AA3D8878CCA4DC5F07FB4 /* libPods-LIN-AkimonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61530445C30F6BD7C723A197 /* libPods-LIN-AkimonTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E2ECBB51F416ECC00F18C83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E2ECB901F416ECC00F18C83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E2ECB971F416ECC00F18C83;
+			remoteInfo = "LIN-Akimon";
+		};
+		3E2ECBC01F416ECC00F18C83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E2ECB901F416ECC00F18C83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E2ECB971F416ECC00F18C83;
+			remoteInfo = "LIN-Akimon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E2ECB981F416ECC00F18C83 /* LIN-Akimon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LIN-Akimon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2ECB9C1F416ECC00F18C83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E2ECB9E1F416ECC00F18C83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E2ECB9F1F416ECC00F18C83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E2ECBA11F416ECC00F18C83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3E2ECBA21F416ECC00F18C83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E2ECBA51F416ECC00F18C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E2ECBA81F416ECC00F18C83 /* LIN_Akimon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LIN_Akimon.xcdatamodel; sourceTree = "<group>"; };
+		3E2ECBAA1F416ECC00F18C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E2ECBAD1F416ECC00F18C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E2ECBAF1F416ECC00F18C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E2ECBB41F416ECC00F18C83 /* LIN-AkimonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LIN-AkimonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2ECBB81F416ECC00F18C83 /* LIN_AkimonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIN_AkimonTests.m; sourceTree = "<group>"; };
+		3E2ECBBA1F416ECC00F18C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E2ECBBF1F416ECC00F18C83 /* LIN-AkimonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LIN-AkimonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2ECBC31F416ECC00F18C83 /* LIN_AkimonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIN_AkimonUITests.m; sourceTree = "<group>"; };
+		3E2ECBC51F416ECC00F18C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521403E5D8F3A028D95D9A4C /* libPods-LIN-AkimonUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LIN-AkimonUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61530445C30F6BD7C723A197 /* libPods-LIN-AkimonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LIN-AkimonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FC8E39EA81330EAD0A6E5D /* Pods-LIN-Akimon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIN-Akimon.release.xcconfig"; path = "Pods/Target Support Files/Pods-LIN-Akimon/Pods-LIN-Akimon.release.xcconfig"; sourceTree = "<group>"; };
+		6C3EA2C1374F9C238677FE6E /* Pods-LIN-AkimonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIN-AkimonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LIN-AkimonTests/Pods-LIN-AkimonTests.release.xcconfig"; sourceTree = "<group>"; };
+		7B6725909E17F49B6BEE76A0 /* Pods-LIN-AkimonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIN-AkimonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LIN-AkimonTests/Pods-LIN-AkimonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		911A7930C73B562C46732F54 /* libPods-LIN-Akimon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LIN-Akimon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B3594F3DFA6C0AD97BAC9F /* Pods-LIN-AkimonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIN-AkimonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LIN-AkimonUITests/Pods-LIN-AkimonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1470EC41DBC327308B67DC9 /* Pods-LIN-Akimon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIN-Akimon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LIN-Akimon/Pods-LIN-Akimon.debug.xcconfig"; sourceTree = "<group>"; };
+		BE0EBA6DCEB49EDAA81E6E3C /* Pods-LIN-AkimonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIN-AkimonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LIN-AkimonUITests/Pods-LIN-AkimonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E2ECB951F416ECC00F18C83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE2F549E7AA0C4D66FF34AA /* libPods-LIN-Akimon.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2ECBB11F416ECC00F18C83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795AA3D8878CCA4DC5F07FB4 /* libPods-LIN-AkimonTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2ECBBC1F416ECC00F18C83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27086357309F482E717A3C91 /* libPods-LIN-AkimonUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E2ECB8F1F416ECC00F18C83 = {
+			isa = PBXGroup;
+			children = (
+				3E2ECB9A1F416ECC00F18C83 /* LIN-Akimon */,
+				3E2ECBB71F416ECC00F18C83 /* LIN-AkimonTests */,
+				3E2ECBC21F416ECC00F18C83 /* LIN-AkimonUITests */,
+				3E2ECB991F416ECC00F18C83 /* Products */,
+				E585241EA50BC5B24B25938B /* Pods */,
+				B2267A2E4A05124F83DD53EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3E2ECB991F416ECC00F18C83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E2ECB981F416ECC00F18C83 /* LIN-Akimon.app */,
+				3E2ECBB41F416ECC00F18C83 /* LIN-AkimonTests.xctest */,
+				3E2ECBBF1F416ECC00F18C83 /* LIN-AkimonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E2ECB9A1F416ECC00F18C83 /* LIN-Akimon */ = {
+			isa = PBXGroup;
+			children = (
+				3E2ECB9E1F416ECC00F18C83 /* AppDelegate.h */,
+				3E2ECB9F1F416ECC00F18C83 /* AppDelegate.m */,
+				3E2ECBA11F416ECC00F18C83 /* ViewController.h */,
+				3E2ECBA21F416ECC00F18C83 /* ViewController.m */,
+				3E2ECBA41F416ECC00F18C83 /* Main.storyboard */,
+				3E2ECBAA1F416ECC00F18C83 /* Assets.xcassets */,
+				3E2ECBAC1F416ECC00F18C83 /* LaunchScreen.storyboard */,
+				3E2ECBAF1F416ECC00F18C83 /* Info.plist */,
+				3E2ECBA71F416ECC00F18C83 /* LIN_Akimon.xcdatamodeld */,
+				3E2ECB9B1F416ECC00F18C83 /* Supporting Files */,
+			);
+			path = "LIN-Akimon";
+			sourceTree = "<group>";
+		};
+		3E2ECB9B1F416ECC00F18C83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E2ECB9C1F416ECC00F18C83 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E2ECBB71F416ECC00F18C83 /* LIN-AkimonTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E2ECBB81F416ECC00F18C83 /* LIN_AkimonTests.m */,
+				3E2ECBBA1F416ECC00F18C83 /* Info.plist */,
+			);
+			path = "LIN-AkimonTests";
+			sourceTree = "<group>";
+		};
+		3E2ECBC21F416ECC00F18C83 /* LIN-AkimonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E2ECBC31F416ECC00F18C83 /* LIN_AkimonUITests.m */,
+				3E2ECBC51F416ECC00F18C83 /* Info.plist */,
+			);
+			path = "LIN-AkimonUITests";
+			sourceTree = "<group>";
+		};
+		B2267A2E4A05124F83DD53EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				911A7930C73B562C46732F54 /* libPods-LIN-Akimon.a */,
+				61530445C30F6BD7C723A197 /* libPods-LIN-AkimonTests.a */,
+				521403E5D8F3A028D95D9A4C /* libPods-LIN-AkimonUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E585241EA50BC5B24B25938B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1470EC41DBC327308B67DC9 /* Pods-LIN-Akimon.debug.xcconfig */,
+				68FC8E39EA81330EAD0A6E5D /* Pods-LIN-Akimon.release.xcconfig */,
+				7B6725909E17F49B6BEE76A0 /* Pods-LIN-AkimonTests.debug.xcconfig */,
+				6C3EA2C1374F9C238677FE6E /* Pods-LIN-AkimonTests.release.xcconfig */,
+				BE0EBA6DCEB49EDAA81E6E3C /* Pods-LIN-AkimonUITests.debug.xcconfig */,
+				99B3594F3DFA6C0AD97BAC9F /* Pods-LIN-AkimonUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E2ECB971F416ECC00F18C83 /* LIN-Akimon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2ECBC81F416ECC00F18C83 /* Build configuration list for PBXNativeTarget "LIN-Akimon" */;
+			buildPhases = (
+				8E87993CDF5E8035C1FBD218 /* [CP] Check Pods Manifest.lock */,
+				3E2ECB941F416ECC00F18C83 /* Sources */,
+				3E2ECB951F416ECC00F18C83 /* Frameworks */,
+				3E2ECB961F416ECC00F18C83 /* Resources */,
+				FC5D2E82448D19348F4AECDA /* [CP] Embed Pods Frameworks */,
+				3F2AC3DA4C682AF62197E9C2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LIN-Akimon";
+			productName = "LIN-Akimon";
+			productReference = 3E2ECB981F416ECC00F18C83 /* LIN-Akimon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E2ECBB31F416ECC00F18C83 /* LIN-AkimonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2ECBCB1F416ECC00F18C83 /* Build configuration list for PBXNativeTarget "LIN-AkimonTests" */;
+			buildPhases = (
+				BE95EAF02044FBFF4539F5F8 /* [CP] Check Pods Manifest.lock */,
+				3E2ECBB01F416ECC00F18C83 /* Sources */,
+				3E2ECBB11F416ECC00F18C83 /* Frameworks */,
+				3E2ECBB21F416ECC00F18C83 /* Resources */,
+				07CBF2E55D67415305F32009 /* [CP] Embed Pods Frameworks */,
+				12218C1BC0F6A8D22A3A9FBB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E2ECBB61F416ECC00F18C83 /* PBXTargetDependency */,
+			);
+			name = "LIN-AkimonTests";
+			productName = "LIN-AkimonTests";
+			productReference = 3E2ECBB41F416ECC00F18C83 /* LIN-AkimonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E2ECBBE1F416ECC00F18C83 /* LIN-AkimonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2ECBCE1F416ECC00F18C83 /* Build configuration list for PBXNativeTarget "LIN-AkimonUITests" */;
+			buildPhases = (
+				EEA64AA7D4EB86857A052691 /* [CP] Check Pods Manifest.lock */,
+				3E2ECBBB1F416ECC00F18C83 /* Sources */,
+				3E2ECBBC1F416ECC00F18C83 /* Frameworks */,
+				3E2ECBBD1F416ECC00F18C83 /* Resources */,
+				43249EC95098414A13C1CAAE /* [CP] Embed Pods Frameworks */,
+				9C04323954D3AB82D9A1CA80 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E2ECBC11F416ECC00F18C83 /* PBXTargetDependency */,
+			);
+			name = "LIN-AkimonUITests";
+			productName = "LIN-AkimonUITests";
+			productReference = 3E2ECBBF1F416ECC00F18C83 /* LIN-AkimonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E2ECB901F416ECC00F18C83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LIN;
+				TargetAttributes = {
+					3E2ECB971F416ECC00F18C83 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LBXGGFL7T5;
+						ProvisioningStyle = Automatic;
+					};
+					3E2ECBB31F416ECC00F18C83 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LBXGGFL7T5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E2ECB971F416ECC00F18C83;
+					};
+					3E2ECBBE1F416ECC00F18C83 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LBXGGFL7T5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E2ECB971F416ECC00F18C83;
+					};
+				};
+			};
+			buildConfigurationList = 3E2ECB931F416ECC00F18C83 /* Build configuration list for PBXProject "LIN-Akimon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E2ECB8F1F416ECC00F18C83;
+			productRefGroup = 3E2ECB991F416ECC00F18C83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E2ECB971F416ECC00F18C83 /* LIN-Akimon */,
+				3E2ECBB31F416ECC00F18C83 /* LIN-AkimonTests */,
+				3E2ECBBE1F416ECC00F18C83 /* LIN-AkimonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E2ECB961F416ECC00F18C83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2ECBAE1F416ECC00F18C83 /* LaunchScreen.storyboard in Resources */,
+				3E2ECBAB1F416ECC00F18C83 /* Assets.xcassets in Resources */,
+				3E2ECBA61F416ECC00F18C83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2ECBB21F416ECC00F18C83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2ECBBD1F416ECC00F18C83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07CBF2E55D67415305F32009 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LIN-AkimonTests/Pods-LIN-AkimonTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12218C1BC0F6A8D22A3A9FBB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LIN-AkimonTests/Pods-LIN-AkimonTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F2AC3DA4C682AF62197E9C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LIN-Akimon/Pods-LIN-Akimon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43249EC95098414A13C1CAAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LIN-AkimonUITests/Pods-LIN-AkimonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E87993CDF5E8035C1FBD218 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LIN-Akimon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C04323954D3AB82D9A1CA80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LIN-AkimonUITests/Pods-LIN-AkimonUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE95EAF02044FBFF4539F5F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LIN-AkimonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEA64AA7D4EB86857A052691 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LIN-AkimonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC5D2E82448D19348F4AECDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LIN-Akimon/Pods-LIN-Akimon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E2ECB941F416ECC00F18C83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2ECBA91F416ECC00F18C83 /* LIN_Akimon.xcdatamodeld in Sources */,
+				3E2ECBA31F416ECC00F18C83 /* ViewController.m in Sources */,
+				3E2ECBA01F416ECC00F18C83 /* AppDelegate.m in Sources */,
+				3E2ECB9D1F416ECC00F18C83 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2ECBB01F416ECC00F18C83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2ECBB91F416ECC00F18C83 /* LIN_AkimonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2ECBBB1F416ECC00F18C83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2ECBC41F416ECC00F18C83 /* LIN_AkimonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E2ECBB61F416ECC00F18C83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E2ECB971F416ECC00F18C83 /* LIN-Akimon */;
+			targetProxy = 3E2ECBB51F416ECC00F18C83 /* PBXContainerItemProxy */;
+		};
+		3E2ECBC11F416ECC00F18C83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E2ECB971F416ECC00F18C83 /* LIN-Akimon */;
+			targetProxy = 3E2ECBC01F416ECC00F18C83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E2ECBA41F416ECC00F18C83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E2ECBA51F416ECC00F18C83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E2ECBAC1F416ECC00F18C83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E2ECBAD1F416ECC00F18C83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E2ECBC61F416ECC00F18C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E2ECBC71F416ECC00F18C83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E2ECBC91F416ECC00F18C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1470EC41DBC327308B67DC9 /* Pods-LIN-Akimon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LBXGGFL7T5;
+				INFOPLIST_FILE = "LIN-Akimon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HJL.LIN-Akimon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E2ECBCA1F416ECC00F18C83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68FC8E39EA81330EAD0A6E5D /* Pods-LIN-Akimon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LBXGGFL7T5;
+				INFOPLIST_FILE = "LIN-Akimon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HJL.LIN-Akimon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3E2ECBCC1F416ECC00F18C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B6725909E17F49B6BEE76A0 /* Pods-LIN-AkimonTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LBXGGFL7T5;
+				INFOPLIST_FILE = "LIN-AkimonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HJL.LIN-AkimonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LIN-Akimon.app/LIN-Akimon";
+			};
+			name = Debug;
+		};
+		3E2ECBCD1F416ECC00F18C83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C3EA2C1374F9C238677FE6E /* Pods-LIN-AkimonTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LBXGGFL7T5;
+				INFOPLIST_FILE = "LIN-AkimonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HJL.LIN-AkimonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LIN-Akimon.app/LIN-Akimon";
+			};
+			name = Release;
+		};
+		3E2ECBCF1F416ECC00F18C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE0EBA6DCEB49EDAA81E6E3C /* Pods-LIN-AkimonUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LBXGGFL7T5;
+				INFOPLIST_FILE = "LIN-AkimonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HJL.LIN-AkimonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LIN-Akimon";
+			};
+			name = Debug;
+		};
+		3E2ECBD01F416ECC00F18C83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99B3594F3DFA6C0AD97BAC9F /* Pods-LIN-AkimonUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LBXGGFL7T5;
+				INFOPLIST_FILE = "LIN-AkimonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HJL.LIN-AkimonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LIN-Akimon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E2ECB931F416ECC00F18C83 /* Build configuration list for PBXProject "LIN-Akimon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2ECBC61F416ECC00F18C83 /* Debug */,
+				3E2ECBC71F416ECC00F18C83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E2ECBC81F416ECC00F18C83 /* Build configuration list for PBXNativeTarget "LIN-Akimon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2ECBC91F416ECC00F18C83 /* Debug */,
+				3E2ECBCA1F416ECC00F18C83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E2ECBCB1F416ECC00F18C83 /* Build configuration list for PBXNativeTarget "LIN-AkimonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2ECBCC1F416ECC00F18C83 /* Debug */,
+				3E2ECBCD1F416ECC00F18C83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E2ECBCE1F416ECC00F18C83 /* Build configuration list for PBXNativeTarget "LIN-AkimonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2ECBCF1F416ECC00F18C83 /* Debug */,
+				3E2ECBD01F416ECC00F18C83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3E2ECBA71F416ECC00F18C83 /* LIN_Akimon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3E2ECBA81F416ECC00F18C83 /* LIN_Akimon.xcdatamodel */,
+			);
+			currentVersion = 3E2ECBA81F416ECC00F18C83 /* LIN_Akimon.xcdatamodel */;
+			path = LIN_Akimon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3E2ECB901F416ECC00F18C83 /* Project object */;
+}

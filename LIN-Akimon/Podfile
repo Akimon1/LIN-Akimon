@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'LIN-Akimon' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for LIN-Akimon
+
+  target 'LIN-AkimonTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'LIN-AkimonUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
