@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LINRootViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //更改启动页停留时间,默认为1s
+    //[NSThread sleepForTimeInterval:5.0];
+
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [[LINRootViewController  alloc] init];
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

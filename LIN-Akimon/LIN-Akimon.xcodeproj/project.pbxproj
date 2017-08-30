@@ -10,15 +10,14 @@
 		27086357309F482E717A3C91 /* libPods-LIN-AkimonUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 521403E5D8F3A028D95D9A4C /* libPods-LIN-AkimonUITests.a */; };
 		3E2ECB9D1F416ECC00F18C83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2ECB9C1F416ECC00F18C83 /* main.m */; };
 		3E2ECBA01F416ECC00F18C83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2ECB9F1F416ECC00F18C83 /* AppDelegate.m */; };
-		3E2ECBA31F416ECC00F18C83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2ECBA21F416ECC00F18C83 /* ViewController.m */; };
 		3E2ECBA61F416ECC00F18C83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2ECBA41F416ECC00F18C83 /* Main.storyboard */; };
 		3E2ECBA91F416ECC00F18C83 /* LIN_Akimon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E2ECBA71F416ECC00F18C83 /* LIN_Akimon.xcdatamodeld */; };
 		3E2ECBAB1F416ECC00F18C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E2ECBAA1F416ECC00F18C83 /* Assets.xcassets */; };
-		3E2ECBAE1F416ECC00F18C83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2ECBAC1F416ECC00F18C83 /* LaunchScreen.storyboard */; };
 		3E2ECBB91F416ECC00F18C83 /* LIN_AkimonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2ECBB81F416ECC00F18C83 /* LIN_AkimonTests.m */; };
 		3E2ECBC41F416ECC00F18C83 /* LIN_AkimonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2ECBC31F416ECC00F18C83 /* LIN_AkimonUITests.m */; };
 		5DE2F549E7AA0C4D66FF34AA /* libPods-LIN-Akimon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 911A7930C73B562C46732F54 /* libPods-LIN-Akimon.a */; };
 		795AA3D8878CCA4DC5F07FB4 /* libPods-LIN-AkimonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61530445C30F6BD7C723A197 /* libPods-LIN-AkimonTests.a */; };
+		9A2BE2FA1F56886600322120 /* LINRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2BE2F91F56886600322120 /* LINRootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,12 +42,9 @@
 		3E2ECB9C1F416ECC00F18C83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E2ECB9E1F416ECC00F18C83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E2ECB9F1F416ECC00F18C83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3E2ECBA11F416ECC00F18C83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3E2ECBA21F416ECC00F18C83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3E2ECBA51F416ECC00F18C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E2ECBA81F416ECC00F18C83 /* LIN_Akimon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LIN_Akimon.xcdatamodel; sourceTree = "<group>"; };
 		3E2ECBAA1F416ECC00F18C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3E2ECBAD1F416ECC00F18C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E2ECBAF1F416ECC00F18C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E2ECBB41F416ECC00F18C83 /* LIN-AkimonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LIN-AkimonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E2ECBB81F416ECC00F18C83 /* LIN_AkimonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIN_AkimonTests.m; sourceTree = "<group>"; };
@@ -64,6 +60,8 @@
 		7B6725909E17F49B6BEE76A0 /* Pods-LIN-AkimonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIN-AkimonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LIN-AkimonTests/Pods-LIN-AkimonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		911A7930C73B562C46732F54 /* libPods-LIN-Akimon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LIN-Akimon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B3594F3DFA6C0AD97BAC9F /* Pods-LIN-AkimonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIN-AkimonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LIN-AkimonUITests/Pods-LIN-AkimonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A2BE2F81F56886600322120 /* LINRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINRootViewController.h; sourceTree = "<group>"; };
+		9A2BE2F91F56886600322120 /* LINRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINRootViewController.m; sourceTree = "<group>"; };
 		B1470EC41DBC327308B67DC9 /* Pods-LIN-Akimon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIN-Akimon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LIN-Akimon/Pods-LIN-Akimon.debug.xcconfig"; sourceTree = "<group>"; };
 		BE0EBA6DCEB49EDAA81E6E3C /* Pods-LIN-AkimonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIN-AkimonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LIN-AkimonUITests/Pods-LIN-AkimonUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,15 +120,9 @@
 		3E2ECB9A1F416ECC00F18C83 /* LIN-Akimon */ = {
 			isa = PBXGroup;
 			children = (
-				3E2ECB9E1F416ECC00F18C83 /* AppDelegate.h */,
-				3E2ECB9F1F416ECC00F18C83 /* AppDelegate.m */,
-				3E2ECBA11F416ECC00F18C83 /* ViewController.h */,
-				3E2ECBA21F416ECC00F18C83 /* ViewController.m */,
-				3E2ECBA41F416ECC00F18C83 /* Main.storyboard */,
+				9A2BE2F71F56762B00322120 /* View */,
+				9A2BE2F61F56761800322120 /* Controller */,
 				3E2ECBAA1F416ECC00F18C83 /* Assets.xcassets */,
-				3E2ECBAC1F416ECC00F18C83 /* LaunchScreen.storyboard */,
-				3E2ECBAF1F416ECC00F18C83 /* Info.plist */,
-				3E2ECBA71F416ECC00F18C83 /* LIN_Akimon.xcdatamodeld */,
 				3E2ECB9B1F416ECC00F18C83 /* Supporting Files */,
 			);
 			path = "LIN-Akimon";
@@ -139,7 +131,12 @@
 		3E2ECB9B1F416ECC00F18C83 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3E2ECB9E1F416ECC00F18C83 /* AppDelegate.h */,
+				3E2ECB9F1F416ECC00F18C83 /* AppDelegate.m */,
 				3E2ECB9C1F416ECC00F18C83 /* main.m */,
+				3E2ECBA41F416ECC00F18C83 /* Main.storyboard */,
+				3E2ECBAF1F416ECC00F18C83 /* Info.plist */,
+				3E2ECBA71F416ECC00F18C83 /* LIN_Akimon.xcdatamodeld */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,6 +157,30 @@
 				3E2ECBC51F416ECC00F18C83 /* Info.plist */,
 			);
 			path = "LIN-AkimonUITests";
+			sourceTree = "<group>";
+		};
+		9A2BE2F61F56761800322120 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A2BE2FB1F5688A000322120 /* Root */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9A2BE2F71F56762B00322120 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9A2BE2FB1F5688A000322120 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				9A2BE2F81F56886600322120 /* LINRootViewController.h */,
+				9A2BE2F91F56886600322120 /* LINRootViewController.m */,
+			);
+			name = Root;
 			sourceTree = "<group>";
 		};
 		B2267A2E4A05124F83DD53EA /* Frameworks */ = {
@@ -303,7 +324,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E2ECBAE1F416ECC00F18C83 /* LaunchScreen.storyboard in Resources */,
 				3E2ECBAB1F416ECC00F18C83 /* Assets.xcassets in Resources */,
 				3E2ECBA61F416ECC00F18C83 /* Main.storyboard in Resources */,
 			);
@@ -404,7 +424,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		9C04323954D3AB82D9A1CA80 /* [CP] Copy Pods Resources */ = {
@@ -437,7 +457,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		EEA64AA7D4EB86857A052691 /* [CP] Check Pods Manifest.lock */ = {
@@ -455,7 +475,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		FC5D2E82448D19348F4AECDA /* [CP] Embed Pods Frameworks */ = {
@@ -480,8 +500,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A2BE2FA1F56886600322120 /* LINRootViewController.m in Sources */,
 				3E2ECBA91F416ECC00F18C83 /* LIN_Akimon.xcdatamodeld in Sources */,
-				3E2ECBA31F416ECC00F18C83 /* ViewController.m in Sources */,
 				3E2ECBA01F416ECC00F18C83 /* AppDelegate.m in Sources */,
 				3E2ECB9D1F416ECC00F18C83 /* main.m in Sources */,
 			);
@@ -525,14 +545,6 @@
 				3E2ECBA51F416ECC00F18C83 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3E2ECBAC1F416ECC00F18C83 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3E2ECBAD1F416ECC00F18C83 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -633,6 +645,7 @@
 			baseConfigurationReference = B1470EC41DBC327308B67DC9 /* Pods-LIN-Akimon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = LBXGGFL7T5;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LIN-Akimon-PrefixHeader.pch";
 				INFOPLIST_FILE = "LIN-Akimon/Info.plist";
@@ -647,6 +660,7 @@
 			baseConfigurationReference = 68FC8E39EA81330EAD0A6E5D /* Pods-LIN-Akimon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = LBXGGFL7T5;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LIN-Akimon-PrefixHeader.pch";
 				INFOPLIST_FILE = "LIN-Akimon/Info.plist";
