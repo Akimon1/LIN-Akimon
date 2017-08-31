@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LINRootViewController : UIViewController
+@interface LINRootViewController : UITabBarController
 
 @end

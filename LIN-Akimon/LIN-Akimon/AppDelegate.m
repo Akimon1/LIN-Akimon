@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LinWellcomeViewController.h"
 #import "LINRootViewController.h"
 
 @interface AppDelegate ()
@@ -21,9 +22,22 @@
     
     //更改启动页停留时间,默认为1s
     //[NSThread sleepForTimeInterval:5.0];
-
+    
+//    NSUserDefaults *useDef = [NSUserDefaults standardUserDefaults];
+//    // 使用 NSUserDefaults 读取用户数据
+//    if (![useDef boolForKey:@"notFirst"]) {
+//        // 如果是第一次进入引导页
+//        self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+//        self.window.rootViewController = [[LinWellcomeViewController  alloc] init];
+//    }
+//    else{
+//        // 否则直接进入应用
+//        self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+//        self.window.rootViewController = [[LINRootViewController  alloc] init];
+//    }
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [[LINRootViewController  alloc] init];
+    self.window.rootViewController = [[LinWellcomeViewController  alloc] init];
     [self.window makeKeyAndVisible];
     
     

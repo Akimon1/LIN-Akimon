@@ -10,13 +10,13 @@
 		27086357309F482E717A3C91 /* libPods-LIN-AkimonUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 521403E5D8F3A028D95D9A4C /* libPods-LIN-AkimonUITests.a */; };
 		3E2ECB9D1F416ECC00F18C83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2ECB9C1F416ECC00F18C83 /* main.m */; };
 		3E2ECBA01F416ECC00F18C83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2ECB9F1F416ECC00F18C83 /* AppDelegate.m */; };
-		3E2ECBA61F416ECC00F18C83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2ECBA41F416ECC00F18C83 /* Main.storyboard */; };
 		3E2ECBA91F416ECC00F18C83 /* LIN_Akimon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E2ECBA71F416ECC00F18C83 /* LIN_Akimon.xcdatamodeld */; };
 		3E2ECBAB1F416ECC00F18C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E2ECBAA1F416ECC00F18C83 /* Assets.xcassets */; };
 		3E2ECBB91F416ECC00F18C83 /* LIN_AkimonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2ECBB81F416ECC00F18C83 /* LIN_AkimonTests.m */; };
 		3E2ECBC41F416ECC00F18C83 /* LIN_AkimonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2ECBC31F416ECC00F18C83 /* LIN_AkimonUITests.m */; };
 		5DE2F549E7AA0C4D66FF34AA /* libPods-LIN-Akimon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 911A7930C73B562C46732F54 /* libPods-LIN-Akimon.a */; };
 		795AA3D8878CCA4DC5F07FB4 /* libPods-LIN-AkimonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61530445C30F6BD7C723A197 /* libPods-LIN-AkimonTests.a */; };
+		9A1DB6D51F57DA8800CECC53 /* LinWellcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1DB6D41F57DA8800CECC53 /* LinWellcomeViewController.m */; };
 		9A2BE2FA1F56886600322120 /* LINRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2BE2F91F56886600322120 /* LINRootViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +42,6 @@
 		3E2ECB9C1F416ECC00F18C83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E2ECB9E1F416ECC00F18C83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E2ECB9F1F416ECC00F18C83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3E2ECBA51F416ECC00F18C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E2ECBA81F416ECC00F18C83 /* LIN_Akimon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LIN_Akimon.xcdatamodel; sourceTree = "<group>"; };
 		3E2ECBAA1F416ECC00F18C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E2ECBAF1F416ECC00F18C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,6 +59,8 @@
 		7B6725909E17F49B6BEE76A0 /* Pods-LIN-AkimonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIN-AkimonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LIN-AkimonTests/Pods-LIN-AkimonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		911A7930C73B562C46732F54 /* libPods-LIN-Akimon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LIN-Akimon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B3594F3DFA6C0AD97BAC9F /* Pods-LIN-AkimonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIN-AkimonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LIN-AkimonUITests/Pods-LIN-AkimonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A1DB6D31F57DA8800CECC53 /* LinWellcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinWellcomeViewController.h; sourceTree = "<group>"; };
+		9A1DB6D41F57DA8800CECC53 /* LinWellcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinWellcomeViewController.m; sourceTree = "<group>"; };
 		9A2BE2F81F56886600322120 /* LINRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LINRootViewController.h; sourceTree = "<group>"; };
 		9A2BE2F91F56886600322120 /* LINRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LINRootViewController.m; sourceTree = "<group>"; };
 		B1470EC41DBC327308B67DC9 /* Pods-LIN-Akimon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIN-Akimon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LIN-Akimon/Pods-LIN-Akimon.debug.xcconfig"; sourceTree = "<group>"; };
@@ -134,7 +135,6 @@
 				3E2ECB9E1F416ECC00F18C83 /* AppDelegate.h */,
 				3E2ECB9F1F416ECC00F18C83 /* AppDelegate.m */,
 				3E2ECB9C1F416ECC00F18C83 /* main.m */,
-				3E2ECBA41F416ECC00F18C83 /* Main.storyboard */,
 				3E2ECBAF1F416ECC00F18C83 /* Info.plist */,
 				3E2ECBA71F416ECC00F18C83 /* LIN_Akimon.xcdatamodeld */,
 			);
@@ -159,9 +159,19 @@
 			path = "LIN-AkimonUITests";
 			sourceTree = "<group>";
 		};
+		9A1DB6D21F57D6A800CECC53 /* Wellcome */ = {
+			isa = PBXGroup;
+			children = (
+				9A1DB6D31F57DA8800CECC53 /* LinWellcomeViewController.h */,
+				9A1DB6D41F57DA8800CECC53 /* LinWellcomeViewController.m */,
+			);
+			name = Wellcome;
+			sourceTree = "<group>";
+		};
 		9A2BE2F61F56761800322120 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9A1DB6D21F57D6A800CECC53 /* Wellcome */,
 				9A2BE2FB1F5688A000322120 /* Root */,
 			);
 			name = Controller;
@@ -325,7 +335,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E2ECBAB1F416ECC00F18C83 /* Assets.xcassets in Resources */,
-				3E2ECBA61F416ECC00F18C83 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +512,7 @@
 				9A2BE2FA1F56886600322120 /* LINRootViewController.m in Sources */,
 				3E2ECBA91F416ECC00F18C83 /* LIN_Akimon.xcdatamodeld in Sources */,
 				3E2ECBA01F416ECC00F18C83 /* AppDelegate.m in Sources */,
+				9A1DB6D51F57DA8800CECC53 /* LinWellcomeViewController.m in Sources */,
 				3E2ECB9D1F416ECC00F18C83 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -537,17 +547,6 @@
 			targetProxy = 3E2ECBC01F416ECC00F18C83 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3E2ECBA41F416ECC00F18C83 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3E2ECBA51F416ECC00F18C83 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3E2ECBC61F416ECC00F18C83 /* Debug */ = {
